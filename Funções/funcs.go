@@ -27,6 +27,7 @@ func printNome(nome string) string {
 // Função começando com letra maiúscul
 // Função PÚBLICA
 // Pode ser utilizada em outros pacotes
+// Como chamar: main.PrintNomeCompleto()
 
 func PrintNomeCompleto(nome, sobrenome string) (string, string) {
 	return nome, sobrenome
